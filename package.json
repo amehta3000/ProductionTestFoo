@@ -1,0 +1,32 @@
+{
+  "name": "muzit-mail",
+  "version": "0.0.0",
+  "description": "Test node app for sending emails via sendgrid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amehta3000/muzit-mail.git"
+  },
+  "keywords": [
+    "test",
+    "heroku",
+    "mailer",
+    "sendgrid"
+  ],
+  "author": "amehta",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/amehta3000/muzit-mail/issues"
+  },
+  "dependencies": {
+    "logfmt": "~0.17.0",
+    "express": "~3.4.6",
+    "sendgrid": "0.4.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <form method="post" action="/mailerconfig" class="form-horizontal">
+      <h3>Enter Infringment data</h3>
+      <div class="control-group">
+        <label class="control-label" for="title">Title</label>
+        <div class="controls">
+            <input type="text" name="title" placeholder="The Lion King" />
+        </div>
+      </div>      
+      <div class="control-group">
+        <label class="control-label" for="isp">ISP</label>
+        <div class="controls">
+          	<input type="text" name="isp" placeholder="Charter" />
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="ip">IP Address</label>
+        <div class="controls">
+            <input type="text" name="ip" placeholder="0.0.0.0" />
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="port">Port</label>
+        <div class="controls">
+            <input type="text" name="port" placeholder="0.0.0.0" />
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="timestamp">Timestamp</label>
+        <div class="controls">
+            <input type="text" name="timestamp" placeholder="12/13/2013 14:09:08" />
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="target_url">Target URL</label>
+        <div class="controls">
+            <input type="text" name="target_url" placeholder="http://bit.ly" />
+        </div>
+      </div>      
+
+
+      <div class="control-group">
+        <div class="controls">
+          <button class="btn btn-info" type="submit" name="submit">SEND</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+
